@@ -71,7 +71,7 @@ Key observations:
 
 - blah
 - blah
-- - blah
+- blah
 
 
 **Details**
@@ -97,8 +97,8 @@ Explain how the attacker entered the environment.
 #  Indicators of Compromise
 
 ## Malicious IPs
-192.168.1.1
-192.168.1.2
+192.168.1.1.
+192.168.1.2.
 
 ## Suspicious Domains
 blah.com
@@ -173,13 +173,13 @@ MITRE ATT&CK framework.
 
 #  Key Takeaways
 
-✔ blah
-✔ blah
-✔  blah
+- blah.
+- blah.
+- blah.
 
 ---
 
-# 🔗 References
+# References
 
 
 # Disclaimer
