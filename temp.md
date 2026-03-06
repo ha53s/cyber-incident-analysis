@@ -84,13 +84,13 @@ Explain how the attacker entered the environment.
 
 | Stage | Description |
 |------|------------|
-| Reconnaissance | Attacker gathered target information |
-| Initial Access | Entry through .... |
-| Execution | Malicious payload executed |
-| Persistence | Backdoor installed..... |
-| Lateral Movement | Movement across systems.... |
-| Exfiltration | Sensitive data stolen .....|
-| Impact | Encryption or system disruption, etc... |
+| Reconnaissance |  |
+| Initial Access |  |
+| Execution |  |
+| Persistence |  |
+| Lateral Movement |  |
+| Exfiltration | |
+| Impact |  |
 
 ---
 
@@ -115,28 +115,12 @@ Possible monitoring points defenders could use:
 
 | Detection Area | Example |
 |---------------|--------|
-| Authentication logs | Multiple failed logins |
+|  |  |
 
 
 ---
 
-# Example Detection Logic
 
-Example SIEM detection :
-IF
-multiple failed login attempts
-AND
-successful login within short timeframe
-AND
-login from new geographic location
-
-THEN
-trigger security alert
-
-Example suspicious command:
-powershell -ExecutionPolicy Bypass
-
----
 
 # MITRE ATT&CK Mapping
 
