@@ -97,4 +97,94 @@ Explain how the attacker entered the environment.
 #  Indicators of Compromise
 
 ## Malicious IPs
+192.168.1.1
+192.168.1.2
+
+## Suspicious Domains
+blah.com
+
+## File Hashes
+SHA: XXXXXXX
+
+
+---
+
+# Detection Opportunities
+
+Possible monitoring points defenders could use:
+
+| Detection Area | Example |
+|---------------|--------|
+| Authentication logs | Multiple failed logins |
+
+
+---
+
+# Example Detection Logic
+
+Example SIEM detection :
+IF
+multiple failed login attempts
+AND
+successful login within short timeframe
+AND
+login from new geographic location
+
+THEN
+trigger security alert
+
+Example suspicious command:
+powershell -ExecutionPolicy Bypass
+
+---
+
+# MITRE ATT&CK Mapping
+
+Mapped using the  
+MITRE ATT&CK framework.
+
+| Tactic | Technique |
+|------|----------|
+| Initial Access |  |
+| Execution |  |
+
+
+---
+
+#  Impact Assessment
+
+| Category | Impact |
+|--------|-------|
+| Data Exposure | Possible |
+| Operational Disruption | Yes |
+| Financial Damage | Unknown |
+| Reputation Damage | High |
+
+---
+
+#  Defensive Recommendations
+
+| Control | Description |
+|------|-------------|
+|  |  |
+
+
+---
+
+#  Key Takeaways
+
+✔ blah
+✔ blah
+✔  blah
+
+---
+
+# 🔗 References
+
+
+# Disclaimer
+
+This analysis is based on publicly available information and is intended for educational and research purposes only.
+
+
 
