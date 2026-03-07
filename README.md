@@ -1,3 +1,3 @@
 # Cyber Incident Analysis
 
-This repository contains structured breakdowns of real-world cybersecurity incidents.
+This repository contains my analisys of real world cybersecurity incidents that i find interesting .
